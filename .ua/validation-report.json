@@ -1,0 +1,80 @@
+{
+  "validatedAt": "2026-11-13T15:02:52.813Z",
+  "schemaSource": "Egonex-AI/Understand-Anything@532a2e97dc007104f9a1b8d11b6cc16ae7c8cd3a",
+  "passed": true,
+  "issues": [],
+  "warnings": [
+    "2102 个节点没有解析到关系；独立快照、配置或解析器不支持的文件可能出现此情况。"
+  ],
+  "stats": {
+    "analyzedFiles": 10183,
+    "coveredFiles": 10183,
+    "fileCategories": {
+      "code": 9149,
+      "config": 618,
+      "docs": 263,
+      "script": 35,
+      "data": 82,
+      "infra": 31,
+      "markup": 5
+    },
+    "totalNodes": 68121,
+    "totalEdges": 129845,
+    "nodeTypes": {
+      "file": 9189,
+      "class": 9510,
+      "function": 48282,
+      "pipeline": 29,
+      "table": 114,
+      "schema": 113,
+      "config": 618,
+      "document": 264,
+      "service": 1,
+      "endpoint": 1
+    },
+    "edgeTypes": {
+      "imports": 10530,
+      "contains": 67459,
+      "exports": 27742,
+      "calls": 21415,
+      "tested_by": 34,
+      "defines_schema": 128,
+      "documents": 45,
+      "related": 880,
+      "configures": 380,
+      "depends_on": 1232
+    },
+    "expectedImports": 10530,
+    "totalLayers": 10,
+    "layerAssignedNodes": 10329,
+    "tourSteps": 15,
+    "orphanNodes": 2102
+  },
+  "orphanExamples": [
+    "pipeline:.github/workflows/bazel.yml",
+    "pipeline:.github/workflows/blob-size-policy.yml",
+    "pipeline:.github/workflows/blocking-ci.yml",
+    "pipeline:.github/workflows/cargo-deny.yml",
+    "pipeline:.github/workflows/cla.yml",
+    "pipeline:.github/workflows/close-stale-contributor-prs.yml",
+    "pipeline:.github/workflows/codespell.yml",
+    "pipeline:.github/workflows/issue-deduplicator.yml",
+    "pipeline:.github/workflows/issue-labeler.yml",
+    "pipeline:.github/workflows/issue-translator.yml",
+    "pipeline:.github/workflows/postmerge-ci.yml",
+    "pipeline:.github/workflows/python-runtime-build.yml",
+    "pipeline:.github/workflows/python-runtime-release.yml",
+    "pipeline:.github/workflows/python-sdk-build.yml",
+    "pipeline:.github/workflows/python-sdk-cli-release.yml",
+    "pipeline:.github/workflows/python-sdk-release.yml",
+    "pipeline:.github/workflows/r2-release.yml",
+    "pipeline:.github/workflows/repo-checks.yml",
+    "pipeline:.github/workflows/rust-ci-full-nextest-platform.yml",
+    "pipeline:.github/workflows/rust-ci-full.yml"
+  ],
+  "artifactSha256": {
+    "knowledge-graph.json": "befef8ddc005e02bdec5a6372457624d1481ff2ba9db0d3ded8c6e6885c38916",
+    "fingerprints.json": "ad89abee7fd7bd839b7fc3177030afcea95717bde2ca03f3d86160be5a5870a6"
+  },
+  "officialInlineValidationIssues": 0
+}

@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-11-13T15:02:59.545129+00:00",
+  "passed": true,
+  "viewer": "Understand-Anything 2.9.8 source dashboard",
+  "graphResponseStatus": 200,
+  "loadedGraph": {
+    "nodes": 68121,
+    "edges": 129845,
+    "layers": 10,
+    "tourSteps": 15,
+    "layerMembers": 10329
+  },
+  "renderedNodes": 10,
+  "pageErrors": [],
+  "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "optionalMissingResources": [
+    {
+      "path": "/diff-overlay.json",
+      "status": 404
+    },
+    {
+      "path": "/domain-graph.json",
+      "status": 404
+    },
+    {
+      "path": "/domain-graph.json",
+      "status": 404
+    },
+    {
+      "path": "/diff-overlay.json",
+      "status": 404
+    }
+  ],
+  "unexpectedHttpErrors": [],
+  "pageTitle": "Understand Anything"
+}
