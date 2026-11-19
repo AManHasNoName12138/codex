@@ -6,6 +6,8 @@
 
 ## 项目概览
 
+需要实际构建并与官方版并存时，另见 [Linux / Windows 源码构建与数据隔离手册](../study-notes/Codex_Linux_Windows_Source_Build_and_Isolation_Guide.md)。
+
 Codex CLI 是在本机运行的 OpenAI 编程代理。本仓库的图谱项目名为 `codex-monorepo`，包含 Rust 工作区、终端与非交互入口、SDK，以及构建、测试和发布工具。先读[仓库 README](../README.md)了解使用方式，再从本指南进入实现。
 
 | 技术                                   | 在仓库中的位置与用途                                                                                              |

@@ -7,6 +7,7 @@
 ## 阅读入口
 
 - [新成员上手指南](../docs/UA_ONBOARDING.md)：由 `understand-onboard` 生成，包含开发准备、架构概念、阅读路线、文件地图和复杂度热点。
+- [Linux / Windows 源码构建与隔离手册](../study-notes/Codex_Linux_Windows_Source_Build_and_Isolation_Guide.md)：完整程序包构建、独立启动器、并存验收与回退。
 - [knowledge-graph.json](knowledge-graph.json)：可供 Understand-Anything 仪表盘加载的完整图谱。
 - [validation-report.json](validation-report.json)：格式、文件覆盖、引用、源码行号和分层校验结果。
 - [dashboard-check.json](dashboard-check.json)：真实 Chromium 中的仪表盘加载与渲染检查。
